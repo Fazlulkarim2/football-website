@@ -14,7 +14,7 @@ body{
     width: 1440px;
     height:670px;
     background-color: #2D25A0;
-   margin-bottom: 40px;
+    padding-bottom:0;
 }
  .turnament-heading{
      width:485px;
@@ -63,6 +63,7 @@ main{
     background-color:#FFFFFF;
     width: 1440px;
     height: 3750px;
+    padding-top: 150px;
 }
 .container{
     display:flex;
@@ -96,6 +97,36 @@ main{
     font-size: 28px;
     margin:3px 0px;
 }
+
+.learn-js{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+     margin-left:300px;
+    margin-top: 100px;
+    padding: 10px;
+    background-color:lightgray;
+}
+.js-icon{
+    margin-right: 10px;
+    font-size: 40px;
+}
+.learn-js:hover{
+background-color: maroon;
+color:mistyrose;
+}
+
+.covid-news{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.covid-patient{
+    padding-right: 30px;
+}
+
 /* footer style */
 
 .football-info{
@@ -103,12 +134,10 @@ main{
     flex-direction: column;
     align-items: center;
     margin-top: 200px;
-    
 }
  .football-logo img{
     width:483.87px;
     height: 110px;
-
 }
 .icon{
     padding:15px;
